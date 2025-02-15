@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Godavari</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        *{
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image: url("pxfuel.jpg");
+            background-attachment: scroll;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height:  100vh;
+ 
+        }
+        .homepage{
+            color: beige;
+            font-size: 70px;
+            font-weight: 900;
+            text-align: center;
+            margin-top: 200px;
+        }
+        .navigation{
+           background-color: black;
+           height: 25px;
+           text-align: center;
+           padding: 25px 20px;
+        }
+        .navigation a{
+            color: azure;
+            padding: 30px;
+            font-size: 20px;   
+            font-weight: 900;   
+            
+        }
+        .navigation a:hover {
+            color : orange;
+        }
+        .Places h1{
+            text-align: center;
+            font-size: 40px;
+        }
+        .images{
+            display: flex;
+            justify-content: space-around; 
+            padding: 20px;
+        }
+        .images figure {
+            width: 30%; 
+            text-align: center;
+        }
+        .images img {
+            width: 100%; 
+            height: 450px;
+            border-radius: 10px; 
+        }
+        .images figcaption {
+            margin-top: 10px;
+            font-size: 20px;
+            color: black;
+        }
+        .images{
+            display: flex;
+            justify-content: space-around; 
+            padding: 20px;
+        }
+        .image figure {
+            width: 30%; 
+            text-align: center;
+        }
+        .image img {
+            width: 100%; 
+            height: 450px;
+            border-radius: 10px; 
+        }
+        .image figcaption {
+            margin-top: 10px;
+            font-size: 20px;
+            color: black;
+        }
+        .morebutton{
+           text-align: center;
+        }
+        .morebutton button{
+            padding: 10px 40px;
+            background-color: black;
+            color: beige;
+            font-size: 20px;
+            border-radius: 30px;
+            border: none;
+            cursor:pointer;
+        }
+        .morebutton :hover{
+           background-color: orange; 
+           color: black;       
+        }
+        .culture{
+            margin: 50px;
+            margin-top: 0;
+            font-size: 20px;
+            text-align: justify;
+           
+        }
+        .cback{
+             background-color: aliceblue;
+            border-radius: 20px;
+            margin:30px;
+        }
+        .foot{
+            text-align: center;
+           
+        }
+        .last{
+            align-items: center;
+            text-align: center;
+           
+        }
+        .social{
+            justify-content: center;
+            display:flex;
+            gap: 30px;
+            font-size: 20px;
+        }
+        .social i:hover{
+            color: orange;
+            cursor:pointer;
+        }
+        #contact {
+    text-align: center;
+    margin-bottom: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background:aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+}
+input, textarea {
+    width: 90%;
+    padding: 10px;
+    border: 2px solid orange;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+input:focus, textarea:focus {
+    border-color: orange;
+    background-color: whitesmoke;
+    
+    color:black
+}
+
+button {
+    padding: 10px 30px;
+    background-color: orange;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: black;
+    color: orange;
+    transform: scale(1.05);
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.social i {
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.social i:hover {
+    color: orange;
+    transform: scale(1.2);
+}
+        
+
+            </style>
+</head>
+<body>
+    <header id = "home">
+        <div class="navigation">
+            <a href = #home> Home</a>
+            <a href = #place> Places to Visit</a>
+            <a href = #culture> Culture</a>
+            <a href = #food> Food</a>
+            <a href = #contact> Contact</a>
+        </div>
+        <div class = "homepage">
+            <p>
+                Discover the Beauty of Godavari <br>&ensp;Nature, Culture & Serenity!
+            </p>
+       
+    </header>
+    <main>
+        <br><br><br><br><br><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id = "place" class="Places">
+        <h1>Places To Visit</h1>
+        </div>
+        <section class="images">
+            <figure>
+                <img src="https://imgs.search.brave.com/iXLxPVo1odvrVAgCe67rb0eddKxqale5L9Dup7Sss_M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9yZXMu/Y2xvdWRpbmFyeS5j/b20vcm91bmRnbGFz/cy9pbWFnZS91cGxv/YWQvZl9hdXRvL3Ff/YXV0by9mX2F1dG8v/Y19saW1pdCx3X2F1/dG86YnJlYWtwb2lu/dHNfMjAwXzI1NjBf/MTAwXzU6MTI2NS92/MTU4NDQzNzYyMC9y/b3VuZGdsYXNzL3N1/c3RhaW4vQ29yaW5n/YV9PbGl2ZS1yaWRs/ZXlfU3Jpa2FudGgt/TWVubmVwdXJpX3dt/dzVway5qcGc">
+                <figcaption>Coringa Wildlife Sanctuary</figcaption>
+            </figure>
+            <figure>
+                <img src="https://imgs.search.brave.com/XCeKrncoJI5pjsofKV0IZhhxdAKUM-ycqcoOLH4RDPM/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzNlLzE5/LzY1LzNlMTk2NTgz/ZTg5MmFmNTMxOWJi/NDAwYmFlNTY3OGIx/LmpwZw" alt="Place 2">
+                <figcaption>Godavari Arch Bridge</figcaption>
+            </figure>
+            <figure>
+                <img src="https://imgs.search.brave.com/zkQwouXyU4hjLH27V3NnHQX_qcGtOZeRbpD0InX2yYA/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS1jZG4udHJpcGFk/dmlzb3IuY29tL21l/ZGlhL3Bob3RvLW8v/MDcvZDUvYjIvYWYv/bG9yZC12ZWVyYS12/ZW5rYXRhLXNhdHlh/bmFyYXlhLmpwZw" alt="Place 3">
+                <figcaption>Annavaram</figcaption>
+            </figure>
+           
+            </section>
+            <div class="morebutton" >
+                <button type="submit"> More</button>
+            </div>
+            <br>
+            <div id = "culture" class="Places">
+                <h1>Cultures</h1>
+                </div>
+                <section class=" cback">
+                    <div class="culture">
+                        <br>
+                    <h2>Local Culture</h2>
+                    <p>The Godavari River basin is rich in cultural heritage, reflecting the traditional culture of Andhra Pradesh. Rajamahendravaram, the headquarters of East Godavari district, is known as the "Cultural Capital of Andhra Pradesh" and is home to the first South Indian film studio, Durga Cinetone. The district has a rich tradition in agriculture, music, art, and cinema, and is known for its hospitality and Veda-pandits.</p>
+                
+                    <h2>Festivals and Celebrations</h2>
+                    <p>The Godavari River is celebrated through several festivals, including the Godavari Pushkaram and Godavari Maha Pushkaram, which occur every 12 years.
+                        The next major event, Godavari Maha Pushkaram, will take place in 2159.</p>
+                
+                    <h2>Traditional Music and Dance</h2>
+                    <p>The Godavari River is associated with several traditional dances and music forms in Andhra Pradesh. One notable dance is Butta Bommalu, which is a traditional dance that is well-known in the Tanuku area of Andhra Pradesh's West Godavari district.
+                        This dance involves dancers wearing masks and performing to the beats of percussion instruments. Another dance is Veeranatyam, a vigorous dance performed by male dancers and dedicated to Lord Shiva, which is traditionally performed on the banks of the Godavari River.
+                       
+                       The film "Godavari" (2006) directed by Sekhar Kammula, set against the backdrop of the Godavari River, also features music composed by K. M. Radha Krishnan, with tracks like "Manasa Gelupu" sung by Shankar Mahadevan, K. S. Chithra, and K. M. Radha Krishnan.
+                       
+                       Butta Bommalu: Traditional dance with masks, performed in Tanuku, West Godavari district.
+                       Veeranatyam: Vigorous dance dedicated to Lord Shiva, performed on the banks of the Godavari River.</p>
+                
+                    <h2>Art and Handicrafts</h2>
+                    <p>The Godavari River is associated with various art and craft forms in India, particularly in the states it flows through. In Gujarat, artisans use the river as a resource for washing fabric and acquiring raw materials like indigo and cotton, which are abundant along the riverbanks.
+                        The river also plays a role in the Ajrakh printing technique, where natural dyes are used to expand the pores of the fabric during summers, making it easier for air to pass through, and closing them during winters to provide warmth.</p>
+                    </div>
+                    <br>
+                </section>
+                <br>
+                <div id = "food" class="Places">
+                    <h1>Foods</h1>
+                    </div>
+
+                <section class="images">
+                    <figure>
+                        <img src="https://pushmycart.com/cdn/shop/products/347520027_5_1044x.progressive.jpg?v=1734441719">
+                        <figcaption>Kakinada Kaja</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="https://cdn.shopify.com/s/files/1/0651/8895/4328/files/Sugar_Kaju_Badam_Pista_Putharekulu_2_1a60fb50-c984-4e87-9752-e4da94109dd1_480x480.png?v=1688530072" alt="Place 2">
+                        <figcaption>Pootharekulu</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="https://www.godavarivantillu.com/cdn/shop/products/kova-billalu-pala-made-with-100-pure-organic-milk-585_720x.jpg?v=1638883604" alt="Place 3">
+                        <figcaption>Pala Kova</figcaption>
+                    </figure>
+                   
+                    </section>
+                    <div class="morebutton" >
+                        <button type="submit"> More</button>
+                    </div>
+                    <br>
+       
+    </main>
+    <footer>
+
+        <div id = "contact" class="Places">
+            <h1>Contact us</h1>
+            </div>
+    <p class="culture foot" >We'd love to hear from you! Whether you have questions, feedback, or just want to say hello, feel free to reach out.</p>
+            <div class="last">
+                <div class="report">
+    <form action="contact" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+            <br><br>
+            <div class="morebutton">
+        <button  type="submit">Submit</button>
+    </div>
+    </div>
+    </form>
+
+<br>
+<br>
+ <div>
+    <p>Or contact us directly at:</p>
+    <p>Email: abhiramgadde2007@gamil.com</p>
+    <p>Follow us on social media:</p>
+    <br>
+    <div class="social">
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-whatsapp"></i>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-twitter"></i>
+    </div>
+    </p>
+</div>
+<br>
+</div>
+    </footer>
+</body>
+</html>
